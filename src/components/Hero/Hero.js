@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import FaArrowDown from "react-icons/lib/fa/arrow-down";
+import { FaArrowDown } from "react-icons/fa/";
 
 const Hero = props => {
   const { scrollToContent, backgrounds, theme } = props;
@@ -9,7 +9,7 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h1>Build great app with React</h1>
+        <h1>Build great apps with React</h1>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
         </button>
