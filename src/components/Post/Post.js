@@ -12,7 +12,7 @@ import NextPrev from "./NextPrev";
 const Share = asyncComponent(() =>
   import("./Share")
     .then(module => {
-      return module;
+      return module.default;
     })
     .catch(error => {})
 );

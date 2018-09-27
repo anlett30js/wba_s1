@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "App is a book", // <title>
   shortSiteTitle: "App is a book", // <title> ending for posts and pages
-  siteDescription: "A static site built with React GatsbyJS",
+  siteDescription: "A static site built with GatsbyJS",
   siteUrl: "https://wbookapp.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
