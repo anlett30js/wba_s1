@@ -93,14 +93,14 @@ const Contact = props => {
                 })(
                   <TextArea
                     name="message"
-                    placeholder="Please leave us your messages"
+                    placeholder="Please leave us your messages!"
                     autosize={{ minRows: 4, maxRows: 10 }}
                   />
                 )}
               </FormItem>
               <FormItem>
                 <Button type="primary" htmlType="submit">
-                  Submit
+                  Send
                 </Button>
               </FormItem>
             </Form>

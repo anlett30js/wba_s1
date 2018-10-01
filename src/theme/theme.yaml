@@ -24,7 +24,7 @@ space:
     m: 0 0 20px 0
     l: 0 0 30px 0
   inline:
-    default: 0 12px 0 0
+    default: 0 8px 0 0
     xxs: 0 2px 0 0
     xs: 0 5px 0 0
     s: 0 12px 0 0
