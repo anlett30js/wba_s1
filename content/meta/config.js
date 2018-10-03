@@ -1,16 +1,13 @@
 module.exports = {
-  siteTitle: "App is a book", // <title>
-  shortSiteTitle: "App is a book", // <title> ending for posts and pages
-  siteDescription: "A static site built with GatsbyJS",
+  siteTitle: "App is Book",
+  shortSiteTitle: "WbookApp",
+  siteDescription: "WbookApp - Software Service",
   siteUrl: "https://wbookapp.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
-  // author
-  authorName: "An Le",
-  authorTwitterAccount: "anlett10",
   // info
-  headerTitle: "WBookApp",
+  headerTitle: "WbookApp",
   //headerSubTitle: "Building Mobile Web App",
   // manifest.json
   manifestName: "Welcome to WBookApp",
@@ -18,10 +15,5 @@ module.exports = {
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
-  manifestDisplay: "standalone",
-  // social
-  authorSocialLinks: [
-    { name: "twitter", url: "https://twitter.com/anlett10" },
-    { name: "facebook", url: "http://facebook.com/anle.mbbs" }
-  ]
+  manifestDisplay: "standalone"
 };
