@@ -157,7 +157,7 @@ class Header extends React.Component {
 
               :global(a.logoType),
               h1 {
-                color: ${theme.color.neutral.white};
+                color: ${theme.color.brand.primary};
               }
               h2 {
                 color: ${theme.color.neutral.gray.d};
