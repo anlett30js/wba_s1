@@ -9,8 +9,7 @@ const Bg = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h1>Explore our web mobile apps</h1>
-        <h2>( Content under development )</h2>
+        <h1>Our web mobile apps</h1>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
         </button>

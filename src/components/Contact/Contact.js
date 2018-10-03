@@ -93,7 +93,7 @@ const Contact = props => {
                 })(
                   <TextArea
                     name="message"
-                    placeholder="Please leave us your messages!"
+                    placeholder="Leave us a message to let us know what we can help with."
                     autosize={{ minRows: 4, maxRows: 10 }}
                   />
                 )}

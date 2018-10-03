@@ -6,7 +6,7 @@ import asyncComponent from "../AsyncComponent";
 import Headline from "../Article/Headline";
 import Bodytext from "../Article/Bodytext";
 import Meta from "./Meta";
-import Comments from "./Comments";
+//import Comments from "./Comments";
 import NextPrev from "./NextPrev";
 
 const Share = asyncComponent(() =>
@@ -22,10 +22,9 @@ const Post = props => {
     post,
     post: {
       html,
-      fields: { prefix, slug },
+      fields: { prefix },
       frontmatter: { title, author, category }
     },
-    facebook,
     next: nextPost,
     prev: prevPost,
     theme
@@ -41,7 +40,6 @@ const Post = props => {
       <footer>
         <Share post={post} theme={theme} />
         <NextPrev next={nextPost} prev={prevPost} theme={theme} />
-        <Comments slug={slug} facebook={facebook} theme={theme} />
       </footer>
     </React.Fragment>
   );

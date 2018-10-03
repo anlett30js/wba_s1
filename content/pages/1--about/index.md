@@ -2,7 +2,7 @@
 title: About
 ---
 
-**WBookApp** is a HCMC distributed engineering consultancy and software development organization, specializing in React.js, React Native, GraphQL, Node.js, Elixir, AWS Mobile and the extended JavaScript ecosystem.
+[WBookApp](/) is a HCMC distributed engineering consultancy and software development organization, specializing in React.js, React Native, GraphQL, Node.js, Elixir, AWS Mobile and the extended JavaScript ecosystem.
 
 ![wba_about](./wba_3.jpg)
 

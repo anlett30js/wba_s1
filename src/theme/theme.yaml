@@ -24,7 +24,7 @@ space:
     m: 0 0 20px 0
     l: 0 0 30px 0
   inline:
-    default: 0 8px 0 0
+    default: 0 6px 0 0
     xxs: 0 2px 0 0
     xs: 0 5px 0 0
     s: 0 12px 0 0
@@ -54,9 +54,9 @@ color:
       k: "#2b2826"
     black: "#000000"
   brand:
-    primary: &color-brand-primary "#1B95E0"
-    primaryActive: "#1B95E0"
-    light: "#61dafb"
+    primary: &color-brand-primary "#00ABD1"
+    primaryActive: "#00ABD1"
+    light: "#1B95E0"
     lightActive: "#61dafb"
     dark: "#06A4C9"
     darkActive: "#48a3c6"
@@ -74,8 +74,8 @@ font:
     bold: 600
   size:
     xxs: &font-size-xs .8em
-    xs: &font-size-xs .95em
-    s: &font-size-s 1.1em
+    xs: &font-size-xs .99em
+    s: &font-size-s 1.0em
     m: &font-size-m 1.35em
     l: &font-size-l 1.7em
     xl: &font-size-xl 2em
@@ -143,6 +143,6 @@ blog:
     hoverColor: *color-brand-primary
 header:
   height:
-    default: 60px
-    fixed: 60px;
-    homepage: 60px;
+    default: 68px
+    fixed: 62px;
+    homepage: 68px;

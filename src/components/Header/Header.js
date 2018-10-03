@@ -7,7 +7,7 @@ import { ScreenWidthContext, FontLoadedContext } from "../../layouts";
 import config from "../../../content/meta/config";
 import Menu from "../Menu";
 
-import avatar from "../../images/jpg/avatar.jpg";
+import avatar from "../../images/png/logo.png";
 
 class Header extends React.Component {
   state = {
@@ -71,7 +71,7 @@ class Header extends React.Component {
           .header {
             align-items: center;
             justify-content: center;
-            background-color: #20232a;
+            background-color: #1e1e1e;
             display: flex;
             height: ${theme.header.height.default};
             position: relative;
@@ -92,13 +92,13 @@ class Header extends React.Component {
 
             &.homepage {
               position: absolute;
-              background-color: #20232a;
+              background-color: #1e1e1e;
               height: ${theme.header.height.homepage};
             }
           }
 
           h1 {
-            font-size: ${theme.font.size.m};
+            font-size: ${theme.font.size.s};
             font-weight: ${theme.font.weight.standard};
             margin: 0;
           }
@@ -111,18 +111,16 @@ class Header extends React.Component {
           }
 
           .logo {
-            border-radius: 80%;
-            border: 1px solid #eee;
             display: inline-block;
-            height: 30px;
+            height: 47px;
             margin: ${theme.space.inline.default};
             overflow: hidden;
-            width: 30px;
+            width: 47px;
             transition: all 0.5s;
 
             .homepage & {
-              height: 47px;
-              width: 47px;
+              height: 61px;
+              width: 61px;
             }
 
             img {
@@ -170,7 +168,7 @@ class Header extends React.Component {
           @from-width desktop {
             .header {
               align-items: center;
-              background-color: #20232a;
+              background-color: #1e1e1e;
               display: flex;
               position: absolute;
               top: 0;
@@ -180,7 +178,7 @@ class Header extends React.Component {
 
               &.fixed {
                 height: ${theme.header.height.fixed};
-                background-color: #20232a;
+                background-color: #1e1e1e;
                 left: 0;
                 padding: 0 ${theme.space.m};
                 position: fixed;
@@ -219,8 +217,8 @@ class Header extends React.Component {
               margin: ${theme.space.inline.default};
 
               .fixed & {
-                height: 36px;
-                width: 36px;
+                height: 53px;
+                width: 53px;
               }
 
               .header.homepage:not(.fixed) & {
