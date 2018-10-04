@@ -57,6 +57,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./static/favicon/icon.png"
+      }
+    },
+    {
       resolve: `gatsby-plugin-algolia`,
       options: {
         appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",

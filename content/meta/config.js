@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "App is Book",
+  siteTitle: "App is a book",
   shortSiteTitle: "WbookApp",
-  siteDescription: "WbookApp - Software Service",
+  siteDescription: "WbookApp - Software Services",
   siteUrl: "https://wbookapp.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
@@ -10,8 +10,8 @@ module.exports = {
   headerTitle: "WbookApp",
   //headerSubTitle: "Building Mobile Web App",
   // manifest.json
-  manifestName: "Welcome to WBookApp",
-  manifestShortName: "wbookapp", // max 12 characters
+  manifestName: "Welcome to WbookApp",
+  manifestShortName: "WbookApp", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
