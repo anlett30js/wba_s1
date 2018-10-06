@@ -2,7 +2,7 @@
 title: Publishing Gatsby site to AWS with AWS Amplify
 category: "Blog"
 cover: p2_4.png
-author: Nader Dabit - Developer Advocate @ AWS Mobile
+author: Nader Dabit - Developer Advocate @AWS Mobile
 ---
 
 In this post, we’ll walk through how to host & publish your next Gatsby site to AWS using AWS Amplify.

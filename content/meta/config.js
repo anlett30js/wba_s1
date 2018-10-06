@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "App is a book",
   shortSiteTitle: "WbookApp",
-  siteDescription: "WbookApp - Software Services",
+  siteDescription: "Software Services",
   siteUrl: "https://wbookapp.com",
   pathPrefix: "",
   siteImage: "preview.jpg",

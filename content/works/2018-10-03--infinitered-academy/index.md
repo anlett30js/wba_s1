@@ -2,7 +2,7 @@
 title: Introducing Infinite Red Academy
 category: "Service"
 cover: p8_a.png
-author: Jamon Holmgren - Founder & COO @infinite_red.
+author: Jamon Holmgren - Founder & CTO @infinite_red.
 ---
 
 **React Native Training Workshops and Courses, On-Site and Online.**

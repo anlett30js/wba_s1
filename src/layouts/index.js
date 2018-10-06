@@ -27,8 +27,8 @@ class Layout extends React.Component {
     };
 
     if (typeof window !== `undefined`) {
-      this.loadFont("font400", "Open Sans", 400);
-      this.loadFont("font600", "Open Sans", 600);
+      this.loadFont("font400", "Montserrat", 400);
+      this.loadFont("font600", "Montserrat", 600);
     }
   }
 
@@ -141,8 +141,8 @@ class Layout extends React.Component {
                       }
                       body {
                         font-family: ${this.state.font400loaded
-                          ? "'Open Sans', sans-serif;"
-                          : "Arial, sans-serif;"};
+                          ? "Montserrat, sans-serif;"
+                          : "'Open Sans', sans-serif;"};
                       }
                       h1,
                       h2,

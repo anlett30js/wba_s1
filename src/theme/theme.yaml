@@ -66,8 +66,8 @@ color:
 font:
   # font options
   family:
-    initial: "Arial, sans-serif"
-    target: &font-family-target "Open Sans"
+    initial: "'Open Sans', sans-serif"
+    target: &font-family-target "Montserrat"
   weight:
     standard: 400
     nice: 500
@@ -144,5 +144,5 @@ blog:
 header:
   height:
     default: 68px
-    fixed: 62px;
+    fixed: 60px;
     homepage: 68px;
