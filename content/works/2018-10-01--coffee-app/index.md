@@ -1,6 +1,6 @@
 ---
 title: Coffee Shop
-category: "Work"
+category: Work
 cover: coffee_2.jpg
 author: WBookApp (WIP)
 ---

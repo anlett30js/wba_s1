@@ -1,6 +1,6 @@
 ---
 title: Chain React 2018 - Simply React
-category: "Video"
+category: Video
 cover: p4_1.png
 author: Kent C. Dodds - Chain React Conference 2018
 ---

@@ -1,6 +1,6 @@
 ---
 title: GraphQL State Management for React Native.
-category: "Video"
+category: Video
 cover: p2_1.png
 author: Peggy Rayzis - Apollo Eng Manager - Chain React 2018
 ---

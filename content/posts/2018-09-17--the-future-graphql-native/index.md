@@ -1,6 +1,6 @@
 ---
 title: The Past, Present, and Future of GraphQL Native
-category: "Video"
+category: Video
 cover: p5_3.png
 author: Nick Schrock - GraphQL Europe 2018
 ---

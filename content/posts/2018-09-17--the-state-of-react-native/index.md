@@ -1,6 +1,6 @@
 ---
 title: Chain React 2018 - The State of React Native
-category: "Video"
+category: Video
 cover: p3_1.png
 author: Ram N - Developer - Chain React Conference 2018
 ---

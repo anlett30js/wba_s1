@@ -1,6 +1,6 @@
 ---
 title: Publishing Gatsby site to AWS with AWS Amplify
-category: "Blog"
+category: Blog
 cover: p2_4.png
 author: Nader Dabit - Developer Advocate @AWS Mobile
 ---

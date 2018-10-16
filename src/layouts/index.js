@@ -1,4 +1,5 @@
 import "typeface-open-sans";
+import "typeface-montserrat";
 import FontFaceObserver from "fontfaceobserver";
 import PropTypes from "prop-types";
 import React from "react";
@@ -66,7 +67,6 @@ class Layout extends React.Component {
 
     font.load(null, 10000).then(
       () => {
-        console.log(`${name} is available`);
         this.setState({ [`${name}loaded`]: true });
       },
       () => {

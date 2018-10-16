@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+const _ = require("lodash");
 
 import { FaCalendar } from "react-icons/fa/";
 import { FaUser } from "react-icons/fa/";
@@ -20,7 +21,7 @@ const Meta = props => {
       {category && (
         <span>
           <FaTag size={18} />
-          <Link to={`/category/${category}`}>{category}</Link>
+          <Link to={`/category/${_.kebabCase(category)}`}>{category}</Link>
         </span>
       )}
 
@@ -40,7 +41,7 @@ const Meta = props => {
           span {
             align-items: center;
             display: flex;
-            text-transform: uppercase;
+            text-transform: propercase;
             margin: ${theme.space.xs} ${theme.space.s} ${theme.space.xs} 0;
           }
         }

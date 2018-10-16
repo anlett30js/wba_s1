@@ -1,6 +1,6 @@
 ---
 title: Introducing Infinite Red Academy
-category: "Service"
+category: Service
 cover: p8_a.png
 author: Jamon Holmgren - Founder & CTO @infinite_red.
 ---
