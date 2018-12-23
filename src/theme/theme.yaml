@@ -15,7 +15,7 @@ space:
     xs: 5px
     s: 12px
     m: 20px
-    l: 30px
+    l: 27px
   stack:
     default: 0 0 20px 0
     xxs: 0 0 2px 0
@@ -24,7 +24,7 @@ space:
     m: 0 0 20px 0
     l: 0 0 30px 0
   inline:
-    default: 0 6px 0 0
+    default: 0 3px 0 0
     xxs: 0 2px 0 0
     xs: 0 5px 0 0
     s: 0 12px 0 0
@@ -143,6 +143,6 @@ blog:
     hoverColor: *color-brand-primary
 header:
   height:
-    default: 68px
-    fixed: 60px;
-    homepage: 68px;
+    default: 53px
+    fixed: 52px;
+    homepage: 53px;
