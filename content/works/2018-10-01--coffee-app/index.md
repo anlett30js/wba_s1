@@ -2,7 +2,7 @@
 title: Coffee Shop
 category: Work
 cover: coffee_2.jpg
-author: WBookApp (WIP)
+author: Wbookapp (WIP)
 ---
 
 ## Coffee Shop
