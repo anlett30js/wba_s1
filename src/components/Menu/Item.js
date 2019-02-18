@@ -59,7 +59,6 @@ const Item = props => {
 
             :global(a:hover) {
               color: ${theme.color.brand.primary};
-              background: color(white alpha(-60%));
             }
 
             :global(svg) {
